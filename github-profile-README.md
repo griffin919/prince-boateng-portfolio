@@ -9,7 +9,7 @@
 **Full-stack software engineer** building production web platforms in the Vue/Nuxt + TypeScript ecosystem (and fluent in React/Next.js). I ship real, revenue-generating products end-to-end — from PostgreSQL schemas to deployed frontends.
 
 🌍 Based in Ghana · open to **remote / relocation (US & EU)**
-🔗 Portfolio: **https://prince-boateng-portfolio.vercel.app**
+🔗 Portfolio: **https://kofiboateng.online**
 📫 princefiifiboateng@gmail.com
 
 ---

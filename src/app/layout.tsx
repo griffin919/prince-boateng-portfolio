@@ -17,7 +17,8 @@ const description =
   "Full-stack software engineer building production web platforms — offline-first pharmacy POS, supply chain and marketplace platforms. Vue/Nuxt & Next.js. Open to US / EU roles.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://prince-boateng.vercel.app"),
+  metadataBase: new URL("https://kofiboateng.online"),
+  alternates: { canonical: "/" },
   title: {
     default: `${profile.name} — ${profile.title}`,
     template: `%s · ${profile.name}`,
@@ -38,6 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     title: `${profile.name} — ${profile.title}`,
     description,
+    url: "/",
     siteName: profile.name,
   },
   twitter: {
