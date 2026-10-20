@@ -1,5 +1,5 @@
 import { profile } from "@/lib/content";
-import { GitHubIcon, XIcon, MailIcon, ArrowDownIcon, ArrowUpRightIcon } from "./icons";
+import { GitHubIcon, XIcon, LinkedInIcon, MailIcon, ArrowDownIcon, ArrowUpRightIcon } from "./icons";
 
 export default function Hero() {
   return (
@@ -51,6 +51,9 @@ export default function Hero() {
         <div className="mt-10 flex items-center gap-5 text-muted">
           <a href={profile.links.github} target="_blank" rel="noreferrer" aria-label="GitHub" className="transition-colors hover:text-ink">
             <GitHubIcon className="h-5 w-5" />
+          </a>
+          <a href={profile.links.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn" className="transition-colors hover:text-ink">
+            <LinkedInIcon className="h-5 w-5" />
           </a>
           <a href={profile.links.twitter} target="_blank" rel="noreferrer" aria-label="X (Twitter)" className="transition-colors hover:text-ink">
             <XIcon className="h-5 w-5" />

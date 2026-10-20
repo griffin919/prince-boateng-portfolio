@@ -13,7 +13,8 @@ export const profile = {
     "Full-stack software engineer at Rigelis Inc. For the last 3 years I've built and run production systems for pharmacy and retail businesses in Ghana: an offline-first POS and supply-chain platform (700+ commits) and a live online pharmacy marketplace. I work primarily in the Vue/Nuxt and TypeScript ecosystem and am equally comfortable in React/Next.js. ALX Software Engineering graduate.",
   links: {
     github: "https://github.com/griffin919",
-    twitter: "https://twitter.com/Kofi__Babone",
+    twitter: "https://x.com/boateng_fii",
+    linkedin: "https://www.linkedin.com/in/prince-boateng-81bbaa191",
     email: "mailto:hello@kofiboateng.online",
   },
   stats: [

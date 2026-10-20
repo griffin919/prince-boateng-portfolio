@@ -1,6 +1,7 @@
 import { profile } from "@/lib/content";
 import Reveal from "./Reveal";
-import { GitHubIcon, XIcon, MailIcon, ArrowUpRightIcon } from "./icons";
+import { GitHubIcon, XIcon, LinkedInIcon, MailIcon, ArrowUpRightIcon } from "./icons";
+import CopyEmail from "./CopyEmail";
 
 export default function Contact() {
   return (
@@ -25,11 +26,15 @@ export default function Contact() {
             <MailIcon className="h-4 w-4" />
             {profile.email}
           </a>
+          <CopyEmail email={profile.email} />
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-6 text-white/60">
           <a href={profile.links.github} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-white">
             <GitHubIcon className="h-4 w-4" /> GitHub <ArrowUpRightIcon className="h-3.5 w-3.5" />
+          </a>
+          <a href={profile.links.linkedin} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-white">
+            <LinkedInIcon className="h-4 w-4" /> LinkedIn <ArrowUpRightIcon className="h-3.5 w-3.5" />
           </a>
           <a href={profile.links.twitter} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1.5 text-sm transition-colors hover:text-white">
             <XIcon className="h-4 w-4" /> Twitter <ArrowUpRightIcon className="h-3.5 w-3.5" />

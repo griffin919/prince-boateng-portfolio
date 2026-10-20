@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: `${profile.name} — ${profile.title}`,
     description,
-    creator: "@Kofi__Babone",
+    creator: "@boateng_fii",
   },
 };
 
