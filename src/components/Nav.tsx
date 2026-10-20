@@ -36,7 +36,7 @@ export default function Nav() {
           href="#top"
           className="font-mono text-sm font-semibold tracking-tight text-ink"
         >
-          PB<span className="text-accent">.</span>
+          KB<span className="text-accent">.</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

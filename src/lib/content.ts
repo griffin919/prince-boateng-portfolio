@@ -2,7 +2,7 @@
 // Edit this file to update copy, projects, skills, and links — the UI reads from here.
 
 export const profile = {
-  name: "Prince Fiifi Boateng",
+  name: "Prince Kofi Boateng",
   handle: "Kofi Babone",
   title: "Full-Stack Software Engineer",
   location: "Ghana · Open to relocation & remote (US / EU)",

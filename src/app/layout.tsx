@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "Nuxt",
     "Next.js",
     "TypeScript",
-    "Prince Fiifi Boateng",
+    "Prince Kofi Boateng",
     "Rigelis",
   ],
   authors: [{ name: profile.name }],

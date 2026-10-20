@@ -4,7 +4,7 @@
   Review / edit anything below before we push. Screenshots + real title/dates still TBD.
 -->
 
-# Hi, I'm Prince Fiifi Boateng 👋
+# Hi, I'm Prince Kofi Boateng 👋
 
 **Full-stack software engineer** building production web platforms in the Vue/Nuxt + TypeScript ecosystem (and fluent in React/Next.js). I ship real, revenue-generating products end-to-end — from PostgreSQL schemas to deployed frontends.
 
