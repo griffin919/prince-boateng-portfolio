@@ -8,17 +8,17 @@ export const profile = {
   location: "Ghana · Open to relocation & remote (US / EU)",
   email: "princefiifiboateng@gmail.com",
   tagline:
-    "I design and ship production web platforms end-to-end — pharmacy commerce, logistics, fintech and insurance systems used across West Africa.",
+    "I design and ship production web platforms end-to-end — an offline-first pharmacy POS and supply-chain platform and a live online pharmacy marketplace in Ghana.",
   summary:
-    "Full-stack software engineer at Rigelis Inc. Over the last few years I've built and shipped real, revenue-generating products from database schema to deployment: multi-tenant SaaS, offline-first point-of-sale, marketplace + logistics platforms, and government revenue tooling. I work primarily in the Vue/Nuxt and TypeScript ecosystem and am equally comfortable in React/Next.js. ALX Software Engineering graduate.",
+    "Full-stack software engineer at Rigelis Inc. For the last 3 years I've built and run production systems for pharmacy and retail businesses in Ghana: an offline-first POS and supply-chain platform (700+ commits) and a live online pharmacy marketplace. I work primarily in the Vue/Nuxt and TypeScript ecosystem and am equally comfortable in React/Next.js. ALX Software Engineering graduate.",
   links: {
     github: "https://github.com/griffin919",
     twitter: "https://twitter.com/Kofi__Babone",
     email: "mailto:princefiifiboateng@gmail.com",
   },
   stats: [
-    { label: "Years building products", value: "4+" },
-    { label: "Products shipped to production", value: "15+" },
+    { label: "Years in production", value: "3" },
+    { label: "Commits on Rigel POS", value: "700+" },
     { label: "Core stack", value: "TypeScript" },
   ],
 };
@@ -249,12 +249,12 @@ export const experience = [
   {
     role: "Software Engineer",
     org: "Rigelis Inc.",
-    period: "2022 — Present",
+    period: "Sep 2023 — Present",
     location: "Ghana",
     points: [
-      "Build and ship commercial web products across pharmacy, logistics, insurance and fintech.",
+      "Build Rigel, an offline-first POS and supply-chain platform for retail and pharmacy chains (700+ commits), and run the backend of medsgh.com (50+ API modules).",
       "Work end-to-end: data modelling, TypeScript backends, Vue/Nuxt & Next.js frontends, Dockerised deployment.",
-      "Contributed to flagship products including MedsGH (e-pharmacy + logistics), rOS (pharmacy POS) and Rigel Insured (multi-tenant SaaS).",
+      "Own medsgh deployments and production incidents; secured it with two-factor auth, passkeys, SSO and an OAuth provider.",
     ],
   },
   {

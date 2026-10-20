@@ -15,8 +15,7 @@ export default function About() {
               I like owning a feature the whole way — modelling the data, writing
               the backend, crafting the interface, and keeping it running in
               production. That breadth is how I ended up shipping across pharmacy
-              commerce, delivery logistics, insurance and government revenue in a
-              short span.
+              commerce, supply chain and delivery logistics in a short span.
             </p>
             <p>
               I&apos;m now looking to bring that ownership and pace to a product

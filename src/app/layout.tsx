@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 const description =
-  "Full-stack software engineer building production web platforms — pharmacy commerce, logistics, fintech and multi-tenant SaaS. Vue/Nuxt & Next.js. Open to US / EU roles.";
+  "Full-stack software engineer building production web platforms — offline-first pharmacy POS, supply chain and marketplace platforms. Vue/Nuxt & Next.js. Open to US / EU roles.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://prince-boateng.vercel.app"),
