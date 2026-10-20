@@ -10,7 +10,7 @@
 
 🌍 Based in Ghana · open to **remote / relocation (US & EU)**
 🔗 Portfolio: **https://kofiboateng.online**
-📫 princefiifiboateng@gmail.com
+📫 hello@kofiboateng.online
 
 ---
 

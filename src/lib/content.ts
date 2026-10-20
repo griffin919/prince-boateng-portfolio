@@ -6,7 +6,7 @@ export const profile = {
   handle: "Kofi Babone",
   title: "Full-Stack Software Engineer",
   location: "Ghana · Open to relocation & remote (US / EU)",
-  email: "princefiifiboateng@gmail.com",
+  email: "hello@kofiboateng.online",
   tagline:
     "I design and ship production web platforms end-to-end — an offline-first pharmacy POS and supply-chain platform and a live online pharmacy marketplace in Ghana.",
   summary:
@@ -14,7 +14,7 @@ export const profile = {
   links: {
     github: "https://github.com/griffin919",
     twitter: "https://twitter.com/Kofi__Babone",
-    email: "mailto:princefiifiboateng@gmail.com",
+    email: "mailto:hello@kofiboateng.online",
   },
   stats: [
     { label: "Years in production", value: "3" },
