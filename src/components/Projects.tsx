@@ -1,4 +1,4 @@
-import { featuredProjects, otherProjects, type Project } from "@/lib/content";
+import { featuredProjects, otherProjects, showOtherProjects, type Project } from "@/lib/content";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
 import { ArrowUpRightIcon, GitHubIcon } from "./icons";
@@ -6,6 +6,7 @@ import { ArrowUpRightIcon, GitHubIcon } from "./icons";
 const statusMeta: Record<Project["status"], { label: string; className: string }> = {
   live: { label: "Live", className: "text-accent bg-accent-soft" },
   private: { label: "Private / commercial", className: "text-muted bg-subtle border border-line" },
+  personal: { label: "Personal project", className: "text-muted bg-subtle border border-line" },
   wip: { label: "In progress", className: "text-amber-700 bg-amber-50 border border-amber-100" },
 };
 
@@ -101,11 +102,12 @@ export default function Projects() {
       />
 
       <div className="mt-12 grid gap-5 sm:grid-cols-2">
-        {featuredProjects.map((p, i) => (
+        {featuredProjects.filter((p) => !p.hidden).map((p, i) => (
           <ProjectCard key={p.slug} project={p} index={i} />
         ))}
       </div>
 
+      {showOtherProjects && (
       <Reveal className="mt-16">
         <h3 className="text-sm font-semibold uppercase tracking-widest text-muted">
           More on GitHub
@@ -141,6 +143,7 @@ export default function Projects() {
           ))}
         </div>
       </Reveal>
+      )}
     </section>
   );
 }

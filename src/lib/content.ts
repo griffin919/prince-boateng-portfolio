@@ -23,7 +23,7 @@ export const profile = {
   ],
 };
 
-export type ProjectStatus = "live" | "private" | "wip";
+export type ProjectStatus = "live" | "private" | "wip" | "personal";
 
 export type Project = {
   slug: string;
@@ -35,6 +35,8 @@ export type Project = {
   highlights: string[];
   stack: string[];
   status: ProjectStatus;
+  /** Not on the resume; kept in the data but not shown on the site. */
+  hidden?: boolean;
   year: string;
   links: {
     live?: string;
@@ -87,6 +89,7 @@ export const featuredProjects: Project[] = [
   },
   {
     slug: "revgh",
+    hidden: true,
     title: "RevGH — Revenue Collector",
     category: "GovTech / Fintech",
     tagline: "Digital tax and revenue collection and management.",
@@ -108,6 +111,7 @@ export const featuredProjects: Project[] = [
   },
   {
     slug: "rigel-insured",
+    hidden: true,
     title: "Rigel Insured",
     category: "Multi-tenant SaaS",
     tagline: "A multi-tenant platform for insurance providers.",
@@ -147,7 +151,27 @@ export const featuredProjects: Project[] = [
     links: {},
   },
   {
+    slug: "guywiththestick",
+    title: "GuyWithTheStick",
+    category: "AI Coding Orchestrator",
+    tagline: "A multi-agent pipeline that plans, implements and reviews code with different AI models.",
+    description:
+      "A personal working tool that runs AI-written code through a Plan, Implement, Review, Human Gate and Test pipeline. Each stage is routed to a different model (Claude, GPT, GLM, DeepSeek) by cost and capability, with review gates that check AI output for correctness, regressions and security before it ships.",
+    role: "Sole engineer — pipeline design, review gates, sandboxing",
+    highlights: [
+      "Review stage rejects diffs that delete existing behavior, ignore the task or contain obvious bugs",
+      "Security review of AI-written output found and closed a path-traversal risk",
+      "Generated tests run in a network-isolated sandbox",
+      "Human approval required for any AI-chosen package; every step logged to an audit ledger",
+    ],
+    stack: ["Claude", "GPT", "GLM", "DeepSeek", "Sandboxed test runner"],
+    status: "personal",
+    year: "2025–2026",
+    links: {},
+  },
+  {
     slug: "multi-pharmacy",
+    hidden: true,
     title: "Multi-Pharmacy Management",
     category: "SaaS Dashboard",
     tagline: "One platform to run a network of pharmacies.",
@@ -167,7 +191,10 @@ export const featuredProjects: Project[] = [
   },
 ];
 
-// Smaller / public projects with browsable source.
+// Smaller / public projects with browsable source. Not on the resume, so hidden:
+// flip this to true to show the "More on GitHub" row again.
+export const showOtherProjects = false;
+
 export const otherProjects = [
   {
     title: "Criminal Record Mgmt. System",
